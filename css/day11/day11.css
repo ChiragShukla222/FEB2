@@ -1,0 +1,32 @@
+/* universal selector */
+*{
+    background-color: blue;
+}
+/* element selector  */
+p {
+    background-color: red;
+}
+div{
+    background-color: blue;
+}
+/* id selector # is used to select the id */
+#h1{
+    background-color: yellow;
+}
+#h2{
+    background-color: pink;
+}
+#h4{
+    background-color: green;
+    color: white;
+    /* color to give colour to text */
+}
+/* class selector */
+/* to selcet a class . is used */
+.mypara{
+    background-color: burlywood;
+    color: blue;
+    font-size: 30px;
+}
+/* class is used when to give colour to n number of text */
+/* id is used when to give colour to only a text like heading or something */
