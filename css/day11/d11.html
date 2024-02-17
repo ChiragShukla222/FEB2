@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="stylesheet" href="d11.css">
+    <title>D11</title>
+</head>
+<body>
+    <form >
+        <section align="center">
+            <h2 align="center" id="heading2">Log IN</h2>
+      
+            <label for="username" class="mylabel">UserName :</label>
+            <input type="text" name="" id="username" placeholder="username" class="input"><br><br>
+         
+            <label for="password" class="mylabel">Password :</label>
+            <input type="password" name="" id="password" placeholder="password" class="input">
+            <br><br>
+            <div align="center"id=div>
+                <input type="button" value="submit">
+                <input type="reset" value="clear">
+               
+            </div>
+    
+        </section>
+    </form>
+    <form action="backend.php" method="post">
+        <label for="my">MUSIC INSTURMENTS</label>
+        <input list="my1" id="my">
+        <datalist id="my1">
+            <option value="rock">rock</option>
+            <option value="jazz">jazz</option>
+            <option value="classical">classical</option>
+        </datalist>
+    </form>
+</body>
+</html>

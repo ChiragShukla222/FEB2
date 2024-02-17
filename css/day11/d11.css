@@ -1,0 +1,27 @@
+#heading2{
+    color: tomato;
+    font-style: italic;
+    font-size: 30px;
+   
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.mylabel{
+    font-size: 30px;
+    color:dark black
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+.input{
+    font-size: 20px;
+    color: bisque;
+    background-color: bisque;
+}
+#div{
+    font-size: 20px;
+    
+}
+*{
+    background-color: lightyellow;
+}
