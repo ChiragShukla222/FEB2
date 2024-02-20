@@ -4,23 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* .box to give to all classes aka div  */
+        .box{
+            border-width: 2px;
+            border-style: dashed;
+            border-color: rgb(17, 79, 140);
+            /* short hand */
+            border: 2px solid green;
+        border: green solid 3px;       
+     }
+     #box1{
+        /* to give left border only */
+        border-left: 3px solid red;
+        border-radius: 20px;
+        /* to give border right only */
+        border-right: 3px blueviolet;
+        /* for top */
+        border-top:3px solid yellow
+        
+     }
+     #box2{
+        /* to give border to up whole right, left ,top and bottom */
+       height: 500px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background: url(/RoyalEnfield/img/december-1366X768.jpg) no-repeat center center/cover;
+     }
+     #box3
+     {
+        background-color: pink;
+        height: 400px;
+        background-image: url(/css/day11/march-1366X768.jpg);
+        /* used to give original size of img */
+        background-repeat: no-repeat;
+    /* to give position */
+    background-position: 100px 100px;
+        /* bg position for x and y */
+    background-position: center top;
+    background-position: center;
+    /* background-size: cover; */
+    /* short hand */
+    background: url(/css/day11/march-1366X768.jpg) no-repeat center center/cover;
+   /* to give an hover effect */
+    background-size: fixed;
+    background-attachment: fixed;
+
+     }
+    </style>
 </head>
 <body>
     <!-- div.box#box1
     . for class name
 #id of div -->
-    <div.box#box1>
-        <h1>HELLO MF</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magnam inventore voluptatem eaque labore maxime sapiente dignissimos expedita voluptatibus, fugit amet, culpa corrupti odit! Impedit ex sequi consectetur cupiditate unde. Nobis magnam soluta minima dolores, corporis odit neque vel eum.</p>
 
-    </div>
+        <div class="box" id="box1">
+            <h1>HELLO MF</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magnam inventore voluptatem eaque labore maxime sapiente dignissimos expedita voluptatibus, fugit amet, culpa corrupti odit! Impedit ex sequi consectetur cupiditate unde. Nobis magnam soluta minima dolores, corporis odit neque vel eum.</p>
+        
+        </div><br>
+       
     <div class="box" id="box2">
         <h2>HELLL</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quo maxime eum, quas sapiente velit cupiditate, sit similique itaque reprehenderit tempora fugiat! Quaerat neque ad, eligendi possimus dolorem eius dolores?</p>
-    </div>
+    </div><br>
     <div class="box" id="box3">
         <h3>ooooo</h3>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laborum ratione rem ipsa repellendus numquam illo porro ut quod rerum!
-    </div>
+    </div><br>
 </body>
 </html>
