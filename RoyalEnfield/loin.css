@@ -1,15 +1,12 @@
-.log{
-    background-image: url(/RoyalEnfield/img/february-1366X768\ \(1\).jpg);
-}
-#head{
-    font-size: xx-large;
-    color: beige;
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#div{
-    font-size: xx-large;
-    color:black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
-
+.class{
+    border: 3px solid black;
+    padding: 5px 10px 10px 5px;
+    margin: 10px;
 }
