@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    color:white;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    border-bottom: 3px solid green;
+}
+/* hero section */
+.hero-section{
+    background:url(/css/day15/csp1.jpeg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+
+}
+.hero-section h1{
+    padding: 15px 0px;
+    margin-top: -100px;
+}
+/* button */
+.button{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    /* to use pointer like on finger like fig */
+}
+.button:hover{
+    background-color: blanchedalmond;
+    color: black;
+    border-bottom: 3px solid green;
+}
