@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    height: 0px;
+}
+.container{
+    border: 3px solid black;
+    background-color: aqua;
+    height: 3000px;
+    display: flex;
+    /* position: relative; */
+    /* justify-content: space-evenly; */
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    background-color: red;
+    /* position: relative; */
+    top: 100px;
+    left: 100px;
+    /* relative to the normal postion and leaves a gap works on the corer of parent*/
+}
+.box2{
+    background-color: green;
+    position: absolute;
+    top: ;
+    left:;
+    /* does not leave an empty space and it works with edges (viewport) */
+}
+.box3{
+    background-color: bisque;
+    position: fixed;
+    top: 0px;
+    left: 100px;
+    /* to fix the content while scrolling  tkaes form edge of */
+}
+.box4{
+    background-color: tomato;
+    position: sticky;
+    top: 100px;
+    /* takes from the container top 
+    to be used in nav bar*/
+}
