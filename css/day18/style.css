@@ -1,0 +1,13 @@
+/* li:nth-child(3n){
+    background-color: red;
+}
+/* for every multiple of 3 */
+/* for every odd number */
+li:nth-child(odd){
+    background-color: blue;
+}
+/* for even */
+li:nth-child(even){
+    background-color: brown;
+} */
+*/
