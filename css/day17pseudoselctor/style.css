@@ -1,0 +1,18 @@
+div p{
+    background-color: yellow;
+}
+/* will give yelow to all the child of div  */
+/* p is child  */
+/* div is parent */
+.maindiv > p{
+    background-color: blue;
+}
+/* to give color to para which is inside of div which class is maindiv only sare para pe nhi hoga */
+div + p{
+    background-color: red;
+}
+/* div ke bhr wale para ya ko bhi elemnt pe direct work */
+/* will apply to the only element next to div like para out side of div which is immediate next to div */
+div ~ p{
+    background-color: aqua;
+}
