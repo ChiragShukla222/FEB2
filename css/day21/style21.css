@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.conatiner{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "content content content "
+    "box1 box2 box2 box2"
+    "box3 box3 box3 box3"
+    "footer footer footer footer";
+}
+/* .conatiner{
+    grid-area:conatiner;
+}
+
+.content{
+    grid-area: content;
+}
+.sidebar{
+    grid-area:sidebar;
+}
+.box1{
+    grid-area: box1;
+}
+.box2{
+    grid-area: box2;
+}
+.box3{
+    grid-area: box3;
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+}  */

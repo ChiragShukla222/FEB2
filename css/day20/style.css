@@ -1,0 +1,49 @@
+
+.conatiner{
+    background-color: grey#333;
+    border:3px solid black;
+    height:500px;
+    /* to divide it into columns  or to declare number of colums in the page*/
+    display: grid;
+    /* grid-template-columns:200px auto 300px ;
+    grid-template-columns:1fr 2fr 1fr 2fr; */
+
+    /* to decide the height and of colums*/
+    /* like auto will give size acc to the size of  insted of auto use 1fr(fratcion)*/
+    
+    /* shorthand */
+    /* grid-template-columns:repeat(3,300px); */
+    /* to make 3 coulms and size  */
+    /* to make rows */
+    /* grid-template-rows:repeat(4,200px); */
+    /* grid-template-rows:200px auto ; */
+    /* vertical like are columns lines 
+    horizontal are row lines*/
+    grid-template-columns:1fr 2fr 3fr 1fr;
+}
+.item{
+    background-color: #333;
+    color: white;
+    padding:20px 0;
+    text-align: center;
+    border: 2px solid white;
+
+}
+.iteml1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    background: url(/css/day19tousebeforeandzline/neom-yg6v0KoiIcU-unsplash.jpg)no-repeat center center/cover;
+    /* on the basis of col expenfing the cols on the lines */
+    /* shorthand */
+    grid-column: 1 / 4 ;
+    grid-area:1 /span2;
+    /* to count the cols other wise it coutns the line col */
+}
+.iteml2{
+    /* expendig on the bais of row and row lines */
+    grid-row-start:2 ;
+    grid-column-end:3 ;
+    /* shorthand */
+    grid-row: 1/2;
+}
+/* span is for counting the cols like to cover 2 and reach to 3 */

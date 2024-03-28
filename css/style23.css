@@ -1,0 +1,82 @@
+.container{
+    background-color: lightgreen;
+}
+.box{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    animation-name:kunal_buddy;
+    animation-duration: 2s;
+    animation-iteration-count:5;
+    /* 5 is number of time */
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    animation-timing-function: ease-in;
+    position: relative;
+    animation-direction: reverse;
+    animation-direction: alternate-reverse; */
+    animation-fill-mode: forwards;
+    animation-fill-mode: both;
+    animation-fill-mode: reverse;
+    /* fill mode reverse to stop it after reaching the forward position */
+    /* fill mode tells what property should applied on the animation before starting and ending */
+    /* ease in ease out */
+    /*iteration to repeat the animation how many times
+      */
+     /* reverse to make it in opposite direction */
+  /* shorthand for animation name duration timing-function delay iteration fill mode */
+  animation: kunal_buddy 2s ease 2s 3 forwards;
+}
+#img{
+    width: 300px;
+}
+
+    @keyframes kunal_buddy{
+        from{
+            width:200px;
+            /* to move it along x axis */
+        }
+        to{
+            width: 800px;
+        }
+    }
+/* another way to to it with particualr sections */
+@keyframes kunal_buddy {
+    0%{
+        width: 200px;
+        background-color: red;
+    }
+    100%{
+        width: 800px;
+        background-color: yellow;
+    }
+
+    
+}
+/*  to make a bar like to touch a particular percentage*/
+/* @keyframes kunal_buddy{
+    0%{
+        top:0px;
+        left: 200px;
+    }
+    25%{
+        top: 20px;
+        left: 100px;
+    }
+    50%{
+        top: 200px;
+        left: 200px;
+        background-color: blue;
+    }
+    75%{
+        top: 200px;
+        left: 0px;
+        background-color: black;
+    }
+    100%{
+        top:0px;
+        left: 0px;
+    }
+
+} */
