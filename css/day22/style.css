@@ -1,0 +1,46 @@
+.container{
+    height: 70vh;
+    background-color: red;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    /* shorthand */
+    transition: all 0.2s ease;
+    background-color: orange;
+    /* transition */
+    transition-property:background-color width ;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 3s;
+    /* short hand */
+    transition: all 1s ease-in-out 1s;
+    /* ease to mak eit smooth */
+}
+
+.box:hover{
+    transform: translateX(100px);
+    transform: translateY(200px);
+    /* to give both */
+    transform: translate(50px);
+    transform: rotate(45deg);
+    /* to move it on x axis */
+    /* transform is used to move elemnt on axis along with transition duration */
+    transform: rotate(45deg);
+    /* to rotate  */
+    transform: rotate(-360deg);
+    /* to increase the widht on x aixs */
+    transform: scaleX(2);
+    /* to make it on both x and y axis */
+    transform: scale(3,2);
+    /* to tilt on x axis */
+    transform: skewX(30deg);
+    /* shorthand */
+    transform: skew(30deg,8deg);
+    background-color:grey;
+    width: 300px;
+}

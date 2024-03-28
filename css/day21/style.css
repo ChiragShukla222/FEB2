@@ -1,0 +1,29 @@
+
+/* parent class */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.item{
+    background-color: azure;
+    padding: 0.55rem;
+}
+/* to make it responsive */
+@media screen and (max-width:768px){
+    /* widht is acc to the tablet screen */
+    /* will work only when the screen szie would pe 768px like 
+    on shrinking */
+    body{
+        background-color: red;
+    }
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+        /* to make it in tow col if hiitted that 768px */
+    }
+}
+@media screen and (max-width:500px){
+    /* for mobile screen */
+    body{
+        background-color: green;
+    }
+}

@@ -1,0 +1,34 @@
+.container{
+    
+    background-color: grey#333;
+    border:3px solid black;
+    height:500px;
+    display: grid;
+    grid-template-areas:
+    "john john john john";
+
+    ;
+}
+header{
+    background-color: yellowgreen;
+    color: black;
+    border: 3px solid red;
+}
+main{
+    
+    background-color: yellowgreen;
+    color: black;
+    border: 3px solid red;
+}
+aside{
+    
+    background-color: yellowgreen;
+    color: black;
+    border: 3px solid red;
+}
+footer{
+    
+    background-color: yellowgreen;
+    color: black;
+    border: 3px solid red;
+}
